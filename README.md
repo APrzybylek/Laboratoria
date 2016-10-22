@@ -1,6 +1,6 @@
 # Laboratoria
 
-git branch [nazwa]
+git branch [nazwa]<br>
 git checkout [nazwa]
 git status
 git add [nazwy plików]
