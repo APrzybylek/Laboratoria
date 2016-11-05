@@ -31,10 +31,6 @@ while (i<7){
 printf("Najmniejsza: %d\n", temp);
 printf("Największa: %d\n", temp2);
 printf("Srednia arytmetyczna: %f\n", ((double)sum / 7));
-  //D)
-i = 0;
-while (i<7) {  i++;
-}
 printf("Liczb większych od 100 jest: %d\n", c);
   return 0;
 }
