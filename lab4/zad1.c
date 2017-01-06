@@ -46,6 +46,7 @@ y=0;
 }
   return 0;
 }
+
 void rysuj(){
 int x=1,y;
 while(x!=4){
@@ -64,6 +65,7 @@ while(x!=4){
   x++;
 }
 }
+
 void gracz(){
     int x,y;
     scanf("%d %d",&x,&y);
@@ -74,6 +76,7 @@ void gracz(){
     gracz();
   }
 }
+
 void komputer(){
   int x,y;
   x=rand()%3+1;
@@ -84,6 +87,7 @@ void komputer(){
   komputer();
 }
 }
+
 void sprawdz(int x,int y,int p){
   int sum=0;
   char z;
@@ -139,14 +143,14 @@ if(znaki[x-1][y-1]==z){
 
 int czymozna(int x, int y){
   if(x>3 || y>3 || x<1 || y<1){
-    printf("za duzo\n");
+    //printf("za duzo\n");
     return 0;
   }
   if(znaki[x][y]=='-'){
-    printf("wolne\n");
+    //printf("wolne\n");
     return 1;
   }else{
-    printf("nie bo nie\n");
+    //printf("nie bo nie\n");
     return 0;
   }
 }
